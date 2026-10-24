@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4e9df">
+  <meta name="description" content="Experimental systems, android dreams, and original animation from FlamingoTangoStudios." />
+  <title>Flamingo Tango</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Flamingo Tango Studios home">
+      <span class="mark" aria-hidden="true">F<span>T</span></span>
+      <span class="wordmark-type">FLAMINGO<br>TANGO<span class="wordmark-small"> / STUDIOS</span></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#worlds">The worlds</a>
+      <a class="nav-contact" href="mailto:LichenHexbot@gmail.com">Say hello <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Independent studio · making it up as we go</p>
+        <h1 id="hero-title">A little logic.<br>A little <em>magic.</em></h1>
+        <p class="hero-intro">Strange little systems, future faces, and stories from the edge of the stage.</p>
+        <a class="round-link" href="#worlds">Step inside <span aria-hidden="true">↓</span></a>
+        <p class="hero-note">CURRENTLY IN THE WORKS <span>✳</span></p>
+      </div>
+      <figure class="hero-art">
+        <img src="images/studio-portrait.png" alt="A masked flamingo sharing a spotlight with a tango dancer on a velvet-curtained stage">
+        <figcaption><span>THE HOUSE IS OPEN</span><span>NO. 001 — ALWAYS IN PROGRESS</span></figcaption>
+      </figure>
+      <div class="hero-side-note" aria-hidden="true">A STUDIO FOR THE UNUSUAL</div>
+    </section>
+
+    <section class="worlds" id="worlds" aria-labelledby="worlds-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">A few things taking shape</p>
+          <h2 id="worlds-title">Worlds <em>in progress</em></h2>
+        </div>
+        <span class="section-index">01 — 03</span>
+      </div>
+      <div class="project-grid">
+        <article class="project-card project-ternary">
+          <a class="project-image" href="https://github.com/lichenhexbot" target="_blank" rel="noreferrer" aria-label="Explore LichenHexbot on GitHub">
+            <img src="images/ternary-systems.png" alt="Three lichen-covered modular logic blocks glowing against a dark field">
+            <span class="image-index">01 / SYSTEMS</span>
+            <span class="image-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-meta"><span>LOGIC, BUT WEIRD</span><span>OPEN SOURCE</span></div>
+          <h3>Small ternary systems</h3>
+          <p>Little experiments in three-state computing, growing at the intersection of logic and lichen.</p>
+          <a class="text-link" href="https://github.com/lichenhexbot" target="_blank" rel="noreferrer">Find the workshop <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="project-card project-android">
+          <div class="project-image">
+            <img src="images/android-dreams.png" alt="A chrome android face catching pink and cyan light in a violet haze">
+            <span class="image-index">02 / FUTURES</span>
+            <span class="image-arrow" aria-hidden="true">✳</span>
+          </div>
+          <div class="project-meta"><span>DESIGN STUDIES</span><span>FORM / FACE</span></div>
+          <h3>Android daydreams</h3>
+          <p>Sketching bodies and faces for machines with a little more mystery in them.</p>
+          <span class="text-link muted-link">Early explorations <span aria-hidden="true">✳</span></span>
+        </article>
+        <article class="project-card project-animation">
+          <div class="project-image">
+            <img src="images/medicine-show.png" alt="A troupe of mysterious, old-fashioned performers gathered beneath red theater curtains">
+            <span class="image-index">03 / ANIMATION</span>
+            <span class="image-arrow" aria-hidden="true">✳</span>
+          </div>
+          <div class="project-meta"><span>ORIGINAL STORIES</span><span>CURTAIN UP</span></div>
+          <h3>The Medicine Show<br><em>&amp; Misfits and Mystics</em></h3>
+          <p>Two animated tales of oddballs, showfolk, and the magic hiding in plain sight.</p>
+          <span class="text-link muted-link">In development <span aria-hidden="true">✳</span></span>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" aria-labelledby="contact-title">
+      <div class="contact-stamp" aria-hidden="true">✳</div>
+      <div>
+        <p class="eyebrow">For collaborations, curiosities &amp; kindred spirits</p>
+        <h2 id="contact-title">Let's make<br><em>something strange.</em></h2>
+      </div>
+      <a class="contact-link" href="mailto:LichenHexbot@gmail.com">LichenHexbot@gmail.com <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-name" href="#top">FLAMINGOTANGOSTUDIOS</a>
+    <span>Independent worlds, in the making.</span>
+    <span>© <span id="year"></span></span>
+  </footer>
+</body>
+</html>
